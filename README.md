@@ -126,6 +126,11 @@ Anda dapat menambahkan berita baru melalui antarmuka admin Filament. Berikut ada
 ### Format Konten
 
 Setiap berita terdiri dari array `content` yang berisi objek-objek dengan tipe yang berbeda. Berikut adalah contoh tipe konten yang dapat Anda gunakan:
+<img width="1675" alt="Screenshot 2024-10-15 at 13 00 00" src="https://github.com/user-attachments/assets/04a17434-e153-4432-ad6f-c33848fe43d6">
+ini adalah contoh halaman tambah berita.
+
+<img width="1667" alt="Screenshot 2024-10-15 at 13 02 24" src="https://github.com/user-attachments/assets/817c6b1e-58d5-4b4e-a5c8-8f010fe49d58">
+ini adalah tipe tipe content dalam pembuatan berita.
 
 1. **Teks**
 
@@ -134,7 +139,14 @@ Setiap berita terdiri dari array `content` yang berisi objek-objek dengan tipe y
    ```javascript
    { type: "text", value: "Ini adalah teks berita." }
    ```
-
+   admin:
+   
+   <img width="1216" alt="Screenshot 2024-10-15 at 13 03 59" src="https://github.com/user-attachments/assets/7325edba-efca-46a5-b794-a8cf737999b8">
+   
+   user:
+   
+   <img width="763" alt="Screenshot 2024-10-15 at 13 13 08" src="https://github.com/user-attachments/assets/6db5f23c-7542-4927-ab1f-9b5da368be05">
+   
 2. **Judul Teks**
 
    Untuk menambahkan judul, gunakan tipe `textTitle`:
@@ -142,6 +154,13 @@ Setiap berita terdiri dari array `content` yang berisi objek-objek dengan tipe y
    ```javascript
    { type: "textTitle", value: "Judul Berita" }
    ```
+   admin:
+   
+   <img width="1217" alt="Screenshot 2024-10-15 at 13 19 42" src="https://github.com/user-attachments/assets/7e08fe73-9dfe-42f6-bcdd-439e3229f034">
+   
+   user:
+   
+   <img width="826" alt="Screenshot 2024-10-15 at 13 13 08 copy" src="https://github.com/user-attachments/assets/c4a8a02d-081c-42d0-bb79-5bda9dda1d2a">
 
 3. **Kotak Teks**
 
@@ -156,6 +175,13 @@ Setiap berita terdiri dari array `content` yang berisi objek-objek dengan tipe y
        ] 
    }
    ```
+   admin:
+   
+   <img width="1203" alt="Screenshot 2024-10-15 at 13 04 04" src="https://github.com/user-attachments/assets/b9cf128d-9ea6-44a8-b949-93ec0f8b310d">
+   
+   user:
+   
+   <img width="847" alt="Screenshot 2024-10-15 at 13 13 08 copy 2" src="https://github.com/user-attachments/assets/c9da8589-88aa-401b-8041-92d4059177c4">
 
 4. **Gambar**
 
@@ -164,6 +190,13 @@ Setiap berita terdiri dari array `content` yang berisi objek-objek dengan tipe y
    ```javascript
    { type: "image", value: "nama-file-gambar.jpg" }
    ```
+   admin:
+   
+   <img width="1210" alt="Screenshot 2024-10-15 at 13 04 08" src="https://github.com/user-attachments/assets/5e34f9d5-b1e4-44ae-a017-6921356bf65b">
+   
+   user:
+   
+   <img width="1109" alt="Screenshot 2024-10-15 at 13 13 13" src="https://github.com/user-attachments/assets/8fe97d9a-35ce-4942-81d2-6c06d506fbfd">
 
 5. **Galeri Gambar**
 
@@ -178,10 +211,17 @@ Setiap berita terdiri dari array `content` yang berisi objek-objek dengan tipe y
        ] 
    }
    ```
+   admin:
+   
+   <img width="1207" alt="Screenshot 2024-10-15 at 13 04 33" src="https://github.com/user-attachments/assets/478cc224-386c-477a-8c27-f1935de1ebb7">
+   
+   user:
+   
+   <img width="1194" alt="Screenshot 2024-10-15 at 13 13 13 copy" src="https://github.com/user-attachments/assets/450ab4f2-af3f-4ce4-a59b-44ffd4ec6c5a">
 
-6. **Daftar**
+6. **Daftar (list)**
 
-   Untuk menambahkan daftar, Anda bisa menggunakan tipe `list`, `listt`, atau variasi lainnya. Contoh untuk daftar tidak terurut (`list`):
+   Untuk menambahkan daftar, Anda bisa menggunakan tipe `list`. Contoh untuk daftar tidak terurut (`list`):
 
    ```javascript
    { 
@@ -197,46 +237,80 @@ Setiap berita terdiri dari array `content` yang berisi objek-objek dengan tipe y
        ] 
    }
    ```
+   admin:
+   
+   <img width="1211" alt="Screenshot 2024-10-15 at 13 09 40" src="https://github.com/user-attachments/assets/75865005-37fd-47c9-953a-248dd27dd83d">
+   
+   user:
+   
+   <img width="1036" alt="Screenshot 2024-10-15 at 13 13 19" src="https://github.com/user-attachments/assets/b8e88dd7-83fa-4886-be15-e42ed125bf53">
+   
+7. **Daftar (listt)**
 
-### Contoh Konten Berita
+   Untuk menambahkan daftar, Anda bisa menggunakan tipe `listt`. Contoh untuk daftar tidak terurut (`listt`):
 
-Berikut adalah contoh bagaimana seluruh konten berita dapat ditambahkan:
+   ```javascript
+   { 
+       type: "listt", 
+       value: [
+           { 
+               items: [
+                   { subtitle: "Subtitle 1", description: "Description 1" },
+                   { subtitle: "Subtitle 2", description: "Description 2" },
+               ]
+           }
+       ] 
+   }
+   ```
+   admin:
+   
+   <img width="1208" alt="Screenshot 2024-10-15 at 13 11 01" src="https://github.com/user-attachments/assets/6ce129ea-bad9-4c9c-9fdf-4d64b4123eb9">
+   
+   user:
+   
+   <img width="797" alt="Screenshot 2024-10-15 at 13 38 31" src="https://github.com/user-attachments/assets/25992247-d886-4fdb-a2ba-aec4080a48bc">
 
-```javascript
-const newsItem = {
-    content: [
-        { type: "textTitle", value: "Judul Berita" },
-        { type: "text", value: "Deskripsi singkat berita." },
-        { 
-            type: "textBox", 
-            value: [
-                { value: "Paragraf pertama." },
-                { value: "Paragraf kedua." }
-            ] 
-        },
-        { type: "image", value: "gambar1.jpg" },
-        { 
-            type: "images", 
-            value: [
-                { item: "gambar2.jpg" },
-                { item: "gambar3.jpg" }
-            ] 
-        },
-        { 
-            type: "list", 
-            value: [
-                { 
-                    title: "Poin Penting", 
-                    items: [
-                        { items: "Item 1", linkItems: "/item1" },
-                        { items: "Item 2", linkItems: "/item2" }
-                    ]
-                }
-            ] 
-        }
-    ]
-};
-```
+8. **Daftar (lisst)**
+
+   Untuk menambahkan daftar, Anda bisa menggunakan tipe `lisst`. Contoh untuk daftar tidak terurut (`lisst`):
+
+   ```javascript
+   { 
+       type: "lisst", 
+       value: [
+           { title: "Title 1", items: "Item 1" },
+           { title: "Title 2", items: "Item 2" },
+       ] 
+   }
+   ```
+   admin:
+   
+   <img width="1207" alt="Screenshot 2024-10-15 at 13 11 40" src="https://github.com/user-attachments/assets/00b5ffd1-325e-49b7-9483-48384abd597e">
+   
+   user:
+   
+   <img width="873" alt="Screenshot 2024-10-15 at 13 38 31 copy" src="https://github.com/user-attachments/assets/72bb47a3-5c9c-4edc-a2f8-2e205bd48b91">
+
+9. **Daftar (lisstt)**
+
+   Untuk menambahkan daftar, Anda bisa menggunakan tipe `lisstt`. Contoh untuk daftar tidak terurut (`lisstt`):
+
+   ```javascript
+   { 
+       type: "lisstt", 
+       value: [
+           { items: "Item 1" },
+           { items: "Item 2" },
+       ] 
+   }
+   ```
+   admin:
+   
+   <img width="1210" alt="Screenshot 2024-10-15 at 13 12 14" src="https://github.com/user-attachments/assets/88ce6313-5c8a-4182-8ed2-33ca076135d9">
+   
+   user:
+   
+   <img width="758" alt="Screenshot 2024-10-15 at 13 38 31 copy 2" src="https://github.com/user-attachments/assets/b78b3ee1-918d-4da4-8f1b-895ea15e94a1">
 
 ## Dukungan
 
