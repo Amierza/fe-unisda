@@ -1,66 +1,247 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Proyek Fakultas Ekonomi UNISDA Lamongan
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Deskripsi Proyek
 
-## About Laravel
+Proyek ini adalah aplikasi web untuk Fakultas Ekonomi UNISDA Lamongan yang menyajikan berita dan konten terkait dengan cara yang interaktif dan responsif. Pengguna dapat menambah, mengedit, dan menampilkan berita dengan berbagai jenis konten menggunakan **Filament** sebagai antarmuka admin.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Fitur Utama
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Menampilkan berita dengan berbagai tipe konten
+- Responsif dan mudah digunakan
+- Antarmuka admin yang intuitif dengan Filament
+- Mudah untuk menambah konten berita baru
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Cara Menjalankan Aplikasi
 
-## Learning Laravel
+Berikut adalah langkah-langkah untuk menjalankan aplikasi ini di komputer Anda:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Prerequisites
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+1. **PHP**: Pastikan Anda sudah menginstal PHP (versi 8.0 atau lebih baru).
+2. **Composer**: Pastikan Anda sudah menginstal Composer. Jika belum, Anda dapat mengunduhnya dari [sini](https://getcomposer.org/download/).
+3. **Node.js**: Pastikan Anda sudah menginstal Node.js. Jika belum, Anda dapat mengunduhnya dari [sini](https://nodejs.org/).
+4. **NPM**: NPM biasanya sudah termasuk dalam instalasi Node.js.
+5. **Database**: Pastikan Anda memiliki server database seperti MySQL atau PostgreSQL.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Langkah-langkah Instalasi
 
-## Laravel Sponsors
+1. **Clone Repository**
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+   Buka terminal dan jalankan perintah berikut untuk meng-clone repositori:
 
-### Premium Partners
+   ```bash
+   git clone <repository-url>
+   ```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+2. **Navigasi ke Folder Proyek**
 
-## Contributing
+   Setelah meng-clone, masuk ke folder proyek:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+   ```bash
+   cd <nama-folder-proyek>
+   ```
 
-## Code of Conduct
+3. **Instalasi Dependensi Backend**
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+   Jalankan perintah berikut untuk menginstal semua dependensi PHP yang diperlukan:
 
-## Security Vulnerabilities
+   ```bash
+   composer install
+   ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+4. **Konfigurasi File `.env`**
 
-## License
+   Salin file `.env.example` menjadi `.env` dan sesuaikan dengan konfigurasi database Anda:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+   ```bash
+   cp .env.example .env
+   ```
+
+   Edit file `.env` untuk mengatur konfigurasi database, seperti nama database, username, dan password.
+
+5. **Generate Key Aplikasi**
+
+   Jalankan perintah berikut untuk menggenerate key aplikasi:
+
+   ```bash
+   php artisan key:generate
+   ```
+
+6. **Migrasi Database**
+
+   Jalankan perintah berikut untuk migrasi database:
+
+   ```bash
+   php artisan migrate
+   ```
+
+7. **Instalasi Dependensi Frontend**
+
+   Untuk menginstal semua dependensi frontend, jalankan:
+
+   ```bash
+   npm install
+   ```
+
+8. **Menjalankan Aplikasi**
+
+   Setelah instalasi selesai, jalankan aplikasi dengan perintah:
+
+   ```bash
+   php artisan serve
+   ```
+
+   Aplikasi akan berjalan di `http://localhost:8000`. Buka browser dan akses URL tersebut untuk melihat aplikasi.
+
+## Cara Login ke Antarmuka Admin Filament
+
+1. Buka browser dan akses URL berikut:
+
+   ```
+   http://localhost:8000/admin
+   ```
+
+2. Masukkan **email** dan **password** Anda yang telah terdaftar di database untuk login ke antarmuka admin Filament (email:admin@example.com, pass:admin123).
+
+3. Setelah berhasil login, Anda akan diarahkan ke dashboard admin.
+
+## Cara Menambahkan Berita
+
+Anda dapat menambahkan berita baru melalui antarmuka admin Filament. Berikut adalah langkah-langkahnya:
+
+1. **Masuk ke Dashboard Admin**
+   
+   Setelah login, Anda akan melihat dashboard admin.
+
+2. **Navigasi ke Menu Berita**
+
+   Pilih menu **Berita** di sidebar. Di sini Anda akan melihat daftar berita yang ada.
+
+3. **Menambah Berita Baru**
+
+   - Klik tombol **Tambah Berita**.
+   - Isi semua kolom yang diperlukan, termasuk judul dan konten berita.
+   - Anda dapat menambahkan berbagai tipe konten sesuai dengan format berikut:
+
+### Format Konten
+
+Setiap berita terdiri dari array `content` yang berisi objek-objek dengan tipe yang berbeda. Berikut adalah contoh tipe konten yang dapat Anda gunakan:
+
+1. **Teks**
+
+   Untuk menambahkan teks biasa, gunakan tipe `text`:
+
+   ```javascript
+   { type: "text", value: "Ini adalah teks berita." }
+   ```
+
+2. **Judul Teks**
+
+   Untuk menambahkan judul, gunakan tipe `textTitle`:
+
+   ```javascript
+   { type: "textTitle", value: "Judul Berita" }
+   ```
+
+3. **Kotak Teks**
+
+   Untuk menambahkan beberapa paragraf dalam satu kotak teks, gunakan tipe `textBox`:
+
+   ```javascript
+   { 
+       type: "textBox", 
+       value: [
+           { value: "Paragraf pertama." },
+           { value: "Paragraf kedua." }
+       ] 
+   }
+   ```
+
+4. **Gambar**
+
+   Untuk menambahkan gambar, gunakan tipe `image`:
+
+   ```javascript
+   { type: "image", value: "nama-file-gambar.jpg" }
+   ```
+
+5. **Galeri Gambar**
+
+   Untuk menambahkan beberapa gambar dalam satu baris, gunakan tipe `images`:
+
+   ```javascript
+   { 
+       type: "images", 
+       value: [
+           { item: "gambar1.jpg" },
+           { item: "gambar2.jpg" }
+       ] 
+   }
+   ```
+
+6. **Daftar**
+
+   Untuk menambahkan daftar, Anda bisa menggunakan tipe `list`, `listt`, atau variasi lainnya. Contoh untuk daftar tidak terurut (`list`):
+
+   ```javascript
+   { 
+       type: "list", 
+       value: [
+           { 
+               title: "Poin Penting", 
+               items: [
+                   { items: "Item 1", linkItems: "/link-item1" },
+                   { items: "Item 2", linkItems: "/link-item2" }
+               ]
+           }
+       ] 
+   }
+   ```
+
+### Contoh Konten Berita
+
+Berikut adalah contoh bagaimana seluruh konten berita dapat ditambahkan:
+
+```javascript
+const newsItem = {
+    content: [
+        { type: "textTitle", value: "Judul Berita" },
+        { type: "text", value: "Deskripsi singkat berita." },
+        { 
+            type: "textBox", 
+            value: [
+                { value: "Paragraf pertama." },
+                { value: "Paragraf kedua." }
+            ] 
+        },
+        { type: "image", value: "gambar1.jpg" },
+        { 
+            type: "images", 
+            value: [
+                { item: "gambar2.jpg" },
+                { item: "gambar3.jpg" }
+            ] 
+        },
+        { 
+            type: "list", 
+            value: [
+                { 
+                    title: "Poin Penting", 
+                    items: [
+                        { items: "Item 1", linkItems: "/item1" },
+                        { items: "Item 2", linkItems: "/item2" }
+                    ]
+                }
+            ] 
+        }
+    ]
+};
+```
+
+## Dukungan
+
+Jika Anda mengalami kesulitan atau memiliki pertanyaan, silakan hubungi saya https://www.instagram.com/mirza_rafiq15/.
+
+---
+
+Dengan panduan ini, Anda sekarang dapat menjalankan aplikasi, login ke antarmuka admin, dan menambahkan berita dengan berbagai tipe konten sesuai kebutuhan.
