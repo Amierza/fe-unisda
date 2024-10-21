@@ -3,7 +3,6 @@ import Search from "../components/Search";
 
 const NewsDetailPages = ({ slug, data, latestNews, newsDisplayForAYear }) => {
     const newsItem = data.find((news) => news.link === slug);
-    console.log(newsItem);
     if (!newsItem) {
         return (
             <div className="w-full pt-9 px-8 pb-40 lg:px-48 lg:pt-20">

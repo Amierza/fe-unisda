@@ -3,7 +3,6 @@ import SasaranProdi from "../components/SasaranProdi.jsx";
 import Search from "../components/Search.jsx";
 
 const EconomicsFaculty = ({ data, latestNews, newsDisplayForAYear }) => {
-    console.log(data);
     return (
         <div>
             <div className="w-full pt-9 px-8 pb-40 lg:px-48 lg:pt-20">

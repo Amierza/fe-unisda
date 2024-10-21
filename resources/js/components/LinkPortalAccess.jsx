@@ -4,7 +4,7 @@ const LinkPortalAccess = ({ title, link }) => {
     return (
         <a
             href={link}
-            className="flex items-center justify-center text-center rounded-full px-2 bg-white lg:h-[90px] h-[60px] lg:w-[443px] w-[221px] lg:text-2xl font-semibold hover:bg-gray-300 cursor-pointer"
+            className="flex items-center text-sm justify-center text-center rounded-full px-2 bg-white lg:h-[90px] h-[40px] lg:w-[443px] w-[180px] lg:text-2xl font-semibold hover:bg-gray-300 cursor-pointer"
         >
             {title}
         </a>

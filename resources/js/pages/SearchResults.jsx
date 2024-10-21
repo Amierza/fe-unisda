@@ -7,7 +7,6 @@ const SearchResults = ({
     latestNews,
     newsDisplayForAYear,
 }) => {
-    console.log(results);
     return (
         <div>
             <div className="w-full pt-9 px-8 pb-40 lg:px-48 lg:pt-20">

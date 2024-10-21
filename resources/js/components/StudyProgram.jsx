@@ -3,7 +3,6 @@ import ProdiCard from "./ProdiCard.jsx";
 import React from "react";
 
 const StudyProgram = ({ prodis }) => {
-    console.log(prodis);
     return (
         <>
             <div className="lg:h-[700px] py-10 relative overflow-hidden">
