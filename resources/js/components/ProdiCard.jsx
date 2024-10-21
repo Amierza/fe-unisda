@@ -4,7 +4,7 @@ const ProdiCard = ({ imageProdi, title, description, link }) => {
     return (
         <a
             href={link}
-            className="lg:w-[319px] mx-24 max-w-80 px-5 py-8 lg:h-[506px] rounded-3xl shadow-md bg-white hover:scale-105 hover:cursor-pointer"
+            className="lg:w-[319px] mx-16 max-w-80 px-5 py-8 lg:h-[506px] rounded-3xl shadow-md bg-white hover:scale-105 hover:cursor-pointer"
         >
             <img
                 src={`/storage/${imageProdi}`}
