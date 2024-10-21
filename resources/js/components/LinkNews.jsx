@@ -1,4 +1,10 @@
 const LinkNews = ({ latestNews, newsDisplayForAYear }) => {
+    const limitWords = (text, limit) => {
+        const words = text.split(" ");
+        return words.length > limit
+            ? words.slice(0, limit).join(" ") + "..."
+            : text;
+    };
     return (
         <div className="pt-28 px-8 w-full flex flex-col gap-10 lg:flex-row lg:justify-center lg:gap-96 lg:pt-44 bg-color-1 pb-20">
             <div>
@@ -13,7 +19,9 @@ const LinkNews = ({ latestNews, newsDisplayForAYear }) => {
                                 key={index}
                                 className="mb-2 hover:text-gray-400"
                             >
-                                <a href={`/news/${post.link}`}>{post.title}</a>
+                                <a href={`/news/${post.link}`}>
+                                    {limitWords(post.title, 5)}
+                                </a>
                             </li>
                         ))}
                     </ul>
