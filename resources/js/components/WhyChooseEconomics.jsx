@@ -5,7 +5,7 @@ const WhyChooseEconomics = () => {
         Mengapa Memilih Fakultas Ekonomi?
       </h2>
       <p className="text-lg mb-4 lg:text-xl">
-        Jurusan Ekonomi menawarkan berbagai alasan menarik untuk dipilih.
+        Fakultas Ekonomi menawarkan berbagai alasan menarik untuk dipilih.
         Berikut adalah beberapa alasan utama mengapa kamu harus mempertimbangkan
         untuk belajar Ekonomi:
       </p>
@@ -14,9 +14,9 @@ const WhyChooseEconomics = () => {
           <strong className="text-color-1">
             Pemahaman Mendalam tentang Ekonomi:
           </strong>
-          Jurusan Ekonomi membekali mahasiswa dengan pemahaman yang komprehensif
+          Fakultas Ekonomi membekali mahasiswa dengan pemahaman yang komprehensif
           tentang bagaimana sistem ekonomi berfungsi, termasuk analisis pasar,
-          perilaku konsumen, dan teori-teori ekonomi.
+          perilaku konsumen, dan teori-teori ekonomi lainya.
         </li>
         <li>
           <strong className="text-color-1">
@@ -31,16 +31,16 @@ const WhyChooseEconomics = () => {
         </li>
         <li>
           <strong className="text-color-1">Peluang Karir yang Luas:</strong>
-          Lulusan Ekonomi memiliki peluang karir di berbagai sektor, termasuk
-          pemerintahan, perbankan, keuangan, dan organisasi internasional.
-          Profesi seperti analis ekonomi, manajer keuangan, dan konsultan bisnis
+          Lulusan dari Fakultas Ekonomi memiliki peluang karir di berbagai sektor, termasuk
+          Pemerintahan, Perbankan, Keuangan, dan Organisasi Internasional.
+          Profesi seperti Analis Ekonomi, Manajer Keuangan, dan Konsultan Bisnis
           sangat dicari.
         </li>
         <li>
           <strong className="text-color-1">
             Analisis Data dan Keterampilan Kuantitatif:
           </strong>
-          Mahasiswa Ekonomi dilatih untuk menganalisis data dan membuat
+          Mahasiswa Fakultas Ekonomi dilatih untuk menganalisis data dan membuat
           keputusan berbasis data, keterampilan yang sangat berharga di dunia
           kerja saat ini.
         </li>
@@ -48,7 +48,7 @@ const WhyChooseEconomics = () => {
           <strong className="text-color-1">
             Pemecahan Masalah yang Kritis:
           </strong>
-          Program Ekonomi mengembangkan kemampuan berpikir kritis dan analitis,
+          Fakultas Ekonomi merupakan program pembelajaran yang mengembangkan kemampuan berpikir kritis dan analitis,
           yang sangat penting untuk memecahkan masalah kompleks dalam bisnis dan
           masyarakat.
         </li>
@@ -61,7 +61,7 @@ const WhyChooseEconomics = () => {
         </li>
       </ul>
       <p className="text-lg lg:text-xl">
-        Dengan memilih jurusan Ekonomi, kamu tidak hanya mempersiapkan diri
+        Dengan memilih Fakultas Ekonomi, kamu tidak hanya mempersiapkan diri
         untuk karir yang sukses, tetapi juga untuk berkontribusi pada pemecahan
         masalah yang dihadapi oleh masyarakat saat ini. Pilih Ekonomi, dan
         jadilah bagian dari solusi!
