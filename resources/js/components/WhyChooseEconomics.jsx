@@ -2,7 +2,7 @@ const WhyChooseEconomics = () => {
   return (
     <div className="py-10 px-5 bg-white shadow-md rounded-lg lg:w-full lg:px-[12rem]">
       <h2 className="text-3xl font-bold text-center mb-6 text-color-2">
-        Mengapa Memilih Ekonomi?
+        Mengapa Memilih Fakultas Ekonomi?
       </h2>
       <p className="text-lg mb-4 lg:text-xl">
         Jurusan Ekonomi menawarkan berbagai alasan menarik untuk dipilih.
