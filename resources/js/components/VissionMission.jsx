@@ -25,10 +25,8 @@ const VissionMission = () => {
                     <div className="lg:w-[720px] w-full">
                         <ul className="list-disc lg:ml-6 lg:text-lg font-light">
                             <li>
-                                Menjadi Pusat Studi Ekonomi yang Profesional
-                                dengan semangat Entrepreneur, Berdaya Saing
-                                Kuat, Mandiri, Berbudaya, Islami dan Bertaraf
-                                Internasional pada Tahun 2031.
+                                Menjadi Fakultas Ekonomi yang Profesional dengan semangat Entrepreneur, 
+                                Berdaya Saing Kuat, Mandiri, Berbudaya, Islami dan Bertaraf Internasional pada Tahun 2031
                             </li>
                         </ul>
                     </div>
@@ -38,39 +36,25 @@ const VissionMission = () => {
                     <div className="lg:w-[720px]">
                         <ul className="list-disc lg:ml-6 lg:text-lg font-light">
                             <li className="mb-2">
-                                Melaksanakan proses pendidikan tinggi yang
-                                berkualitas yang menghasilkan lulusan yang
-                                professional dengan semangat entrepreneur, dan
-                                kompetitif di bidang keuangan, perpajakan,
-                                forensik, sumberdaya manusia dan marketing.
+                                Meningkatkan kualitas daya saing mahasiswa ekonomi dengan semangat entrepreneur, 
+                                berdaya saing kuat, mandiri, berbudaya islami yang bereputasi internasional
                             </li>
                             <li className="mb-2">
-                                Menyelenggarakan manajemen kelembagaan dengan
-                                prinsip tata kelola fakultas yang baik,
-                                meningkatkan kualitas Sumber Daya Manusia.
-                                Menyediakan sarana prasarana pembelajaran yang
-                                berkualitas dan tata kelola keuangan yang
-                                akuntabel.
+                                Meningkatkan kualitas penelitian di bidang ekonomi yang 
+                                bereputasi internasional serta berkonstribusi dalam pengembangan IPTEKS.
                             </li>
                             <li className="mb-2">
-                                Melaksanakan peningkatan kualitas dan kuantitas
-                                penelitian guna mendukung studi keislaman dan
-                                kemajuan ilmu pengetahuan, teknologi, seni dan
-                                pengayaan budaya yang bermanfaat bagi
-                                kesejahteraan masyarakat.
+                                Meningkatkan kualitas pengabdian kepada masyarakat di bidang ekonomi, 
+                                dengan prinsip tata kelola fakultas yang baik, yang bereputasi internasional.
                             </li>
                             <li className="mb-2">
-                                Melaksanakan peningkatan kualitas dan kuantitas
-                                pengabdian kepada masyarakat sebagai upaya
-                                penerapan ilmu pengetahuan, teknologi, seni dan
-                                budaya sesuai dengan kepentingan masyarakat dan
-                                bangsa.
+                                Meningkatkan kualitas Good Faculty Governance dalam 
+                                pengelolaan organisasi dan jaringan kerjasama dengan stakeholder luar negeri.
                             </li>
                             <li className="mb-2">
-                                Melaksanakan kerja sama dengan berbagai pihak
-                                baik Tingkat Nasional Maupun Internasional, guna
-                                memperkaya pelaksanaan Tridharma Perguruan
-                                Tinggi
+                                Meningkatkan kualitas penyelenggaraan program sarjana menghasilkan lulusan yang profesional
+                                berdasarkan sumberdaya dan lingkungan 
+                                yang kompetitif di bidang ekonomi akuntansi dan ekonomi manajemen, yang bereputasi internasional.
                             </li>
                         </ul>
                     </div>
