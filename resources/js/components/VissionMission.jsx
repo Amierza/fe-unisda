@@ -25,8 +25,8 @@ const VissionMission = () => {
                     <div className="lg:w-[720px] w-full">
                         <ul className="list-disc lg:ml-6 lg:text-lg font-light">
                             <li>
-                                Menjadi Fakultas Ekonomi yang Profesional dengan semangat Entrepreneur, 
-                                Berdaya Saing Kuat, Mandiri, Berbudaya, Islami dan Bertaraf Internasional pada Tahun 2031
+                                "Menjadi Fakultas Ekonomi yang Profesional dengan semangat entrepreneur, Berdaya Saing Kuat, 
+                                Mandiri, Berbudaya, Islami dan Bertaraf Internasional pada tahun 2031."
                             </li>
                         </ul>
                     </div>
@@ -36,25 +36,24 @@ const VissionMission = () => {
                     <div className="lg:w-[720px]">
                         <ul className="list-disc lg:ml-6 lg:text-lg font-light">
                             <li className="mb-2">
-                                Meningkatkan kualitas daya saing mahasiswa ekonomi dengan semangat entrepreneur, 
-                                berdaya saing kuat, mandiri, berbudaya islami yang bereputasi internasional
+                                Melaksanakan penerapan tata kelola berbasis Good Faculty Governance dengan sistem manajemen ISO dengan meningkatkan kualitas SDM dan 
+                                penyediaan sarana prasarana berkualitas dengan standar internasional.
                             </li>
                             <li className="mb-2">
-                                Meningkatkan kualitas penelitian di bidang ekonomi yang 
-                                bereputasi internasional serta berkonstribusi dalam pengembangan IPTEKS.
+                                Menyelenggrakan pendidikan program Sarjana yang menghasilkan lulusan yang profesional yang berbudaya islami dan berkemampuan IPTEKS berdasarkan sumber daya 
+                                dan lingkungan yang kompetitif di bidang Akuntansi dan Manajemen yang bereputasi internasional.
                             </li>
                             <li className="mb-2">
-                                Meningkatkan kualitas pengabdian kepada masyarakat di bidang ekonomi, 
-                                dengan prinsip tata kelola fakultas yang baik, yang bereputasi internasional.
+                                Menghasilkan kualitas dan kuantitas penelitian di bidang Akuntansi dan Manajemen yang bereputasi 
+                                internasional serta berkonstribusi dalam pengembangan IPTEKS
                             </li>
                             <li className="mb-2">
-                                Meningkatkan kualitas Good Faculty Governance dalam 
-                                pengelolaan organisasi dan jaringan kerjasama dengan stakeholder luar negeri.
+                                Menghasilkan kualitas dan kuantitas pengabdian kepada masyarakat di bidang Akuntansi dan
+                                Manajemen yang bereputasi internasional serta berkonstribusi dalam pengembangan IPTEKS
                             </li>
                             <li className="mb-2">
-                                Meningkatkan kualitas penyelenggaraan program sarjana menghasilkan lulusan yang profesional
-                                berdasarkan sumberdaya dan lingkungan 
-                                yang kompetitif di bidang ekonomi akuntansi dan ekonomi manajemen, yang bereputasi internasional.
+                                Membangun kerjasama dengan stakeholder luar negeri untuk meningkatkan
+                                kualitas pelaksanaan Tridharma Perguruan Tinggi.
                             </li>
                         </ul>
                     </div>
