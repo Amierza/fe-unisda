@@ -74,7 +74,7 @@ const Header2 = () => {
                                         className="prodi-item-link cursor-pointer"
                                         onClick={handleProdiIsOpen}
                                     >
-                                        Prodi
+                                        Akademik
                                     </p>
                                     <ion-icon
                                         name="chevron-down-outline"
