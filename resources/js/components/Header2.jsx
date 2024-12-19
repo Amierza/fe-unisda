@@ -292,6 +292,14 @@ const Header2 = () => {
                                         Manajemen
                                     </a>
                                 </li>
+                                <li className="text-gray-400 hover:text-color-2 hover:font-bold lg:text-lg">
+                                    <a
+                                        href="/pendaftaran"
+                                        onClick={handleLinkClick}
+                                    >
+                                        Registration Information
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <li className="border-b-[1px] border-white pb-2">
